@@ -2,13 +2,13 @@
 
 ## Uvod
 U ovom repozitoriju je data implementacija upravljanja temperaturom prostorije i implementacija odgovarajućeg SCADA HMI interfejsa. 
-Upravljanje je implementirano u Siemens-ovom TIA Portal razvojnom okruženju. Korišten je temperaturni PID reguator iz TIA biblioteke blokova, i implementiran je tropozicioni regulator sa histerezom, a iz HMI interfejsa je omogućen njihov izbor. U praktičnom slučaju algoritam upravljanja se izvršava na PLC-u. U radu je izabran Siemens S7-1500 PLC uređaj, sa dodatnim ulaznim i izlaznim modulima na koje se spajaju senzori i aktuatori.
-U izvedbi HMI interfejsa u SCADA sistemu je korišten WinCC RT Advanced program unutar TIA Portala. Implementirane su funkcionalnosti SCADA sistema: grafika procesa, trendovi, alarmi i događaji, arhiviranje izabranih trendova i alarma u SQL bazu podataka. 
-U radu je korištena mogučnost simulacije u pomenutom razvojnom okruženju. Pa je simuliran sistem upravljanja sa implementiranim algoritmom i objektom upravljanja čiji model je zadan softverski, odgovarajućim blokom. U regulacionoj konturi u simuaciji, izlazi i ulazi objekta upravljanja su povezani sa odgovarajućim ulazima i izlazima PLC-a preko simboličkih tagova. U praktičnom slučaju za razliku od simulacije bi imali odgovarajuće fizičke tagove za odgovarajuće ulaze i izlaze PLC-a, na koje su spojeni senzori i aktuatori sa objekta upravljanja. U simulaciji algoritam upravljanja se izvršava na PLC-u, simulira se mreža koja povezule PLC sa PC računarom na kojem izvršava SCADA aplikacija. Simulacija daje potpun uvid u funkcionalnost izvedenog HMI interfejsa.
-Implementacija sistema upravljanja, implementacija SCADA HMI intrface-a i rezultati simulacije su detaljno dati u Documentation.
+Upravljanje je implementirano u Siemens-ovom TIA Portal razvojnom okruženju.  
+Korišten je temperaturni PID reguator iz TIA biblioteke blokova, i implementiran je tropozicioni regulator sa histerezom, a iz HMI interfejsa je omogućen njihov izbor. U praktičnom slučaju algoritam upravljanja se izvršava na PLC-u. U radu je izabran Siemens S7-1500 PLC uređaj, sa dodatnim ulaznim i izlaznim modulima na koje se spajaju senzori i aktuatori.
+U izvedbi HMI interfejsa u SCADA sistemu je korišten WinCC RT Advanced program unutar TIA Portala. Implementirane su funkcionalnosti SCADA sistema: grafika procesa, trendovi, alarmi i događaji, arhiviranje izabranih trendova i alarma u SQL bazu podataka.   
+U radu je korištena mogučnost simulacije u pomenutom razvojnom okruženju. Pa je simuliran sistem upravljanja sa implementiranim algoritmom i objektom upravljanja čiji model je zadan softverski, odgovarajućim blokom. U regulacionoj konturi u simuaciji, izlazi i ulazi objekta upravljanja su povezani sa odgovarajućim ulazima i izlazima PLC-a preko simboličkih tagova. U praktičnom slučaju za razliku od simulacije bi imali odgovarajuće fizičke tagove za odgovarajuće ulaze i izlaze PLC-a, na koje su spojeni senzori i aktuatori sa objekta upravljanja. U simulaciji algoritam upravljanja se izvršava na PLC-u, simulira se mreža koja povezule PLC sa PC računarom na kojem izvršava SCADA aplikacija. Simulacija daje potpun uvid u funkcionalnost izvedenog HMI interfejsa.  
+Implementacija sistema upravljanja, implementacija SCADA HMI intrface-a i rezultati simulacije su detaljno dati u [Documentation](./Documentation.pdf)
 
 ## Sadržaj
-- [Uvod](#uvod)
 - [Instalacija](#instalacija)
 - [Pokretanje simulacije](#pokretanje-simulacije)
 - [Simulacija](#simulacija)
@@ -57,4 +57,4 @@ SCADA sistem arhivira podatke u SQL bazi podataka, što omogućava praćenje his
 - Arhiviranje: Svi alarmi i relevantni procesni podaci arhiviraju se u SQL bazu podataka, što omogućava naknadnu analizu.
 
 ## Licenca
-Ovaj projekt je licenciran pod MIT licencom. Detalji licence su dati u datoteci LICENSE.
+Ovaj projekt je licenciran pod MIT licencom. Detalji licence su dati u datoteci [LICENSE](./LICENSE).
