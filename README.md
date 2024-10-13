@@ -20,19 +20,19 @@ Implementacija sistema upravljanja, implementacija SCADA HMI intrface-a i rezult
 ## Instalacija
 Za pokretanje ovog projekta potrebno je instalirati sljedeći softver:
 - Siemens TIA Portal v16
-- WinCC RT Advanced (za SCADA HMI interface)
-- S7-PLCSIM (za simulaciju PLC-a)
-- Automation License Manager
-- Microsoft SQL Server (SQL baza podataka). Poželjno je imati instalisan i SQL Server Management Studio.
+- *WinCC RT Advanced* (za SCADA HMI interface)
+- *S7-PLCSIM* (za simulaciju PLC-a)
+- *Automation License Manager*
+- *Microsoft SQL Server*. Poželjno je imati instalisan i *SQL Server Management Studio*.
 
 ### Pokretanje simulacije
-1. Klonirati repozitorij;
-2. Otvoriti TIA Portal;
+1. Klonirati repozitorij na računar;
+2. Pokrenuti *TIA Portal*;
 3. Dvoklikom na fajl SeminarskiRad26n.ap16 iz repozitorija, otvaramo projekat sa implementiranim upravljanjem i HMI interfaceom;
-4. U mapi Project tree klinuti na Controller te na dugme Start Simulation koje se nalazi u alatnoj traci TIA razvojnog okruženja. Ovim se pokreće aplikacija S7-PLCSIM.
-5. Konfigurisati simulirani PLC u S7-PLCSIM-u i postavite ga na RUN.
+4. U mapi *Project* tree klinuti na *Controller* te na dugme *Start Simulation* koje se nalazi u alatnoj traci TIA razvojnog okruženja. Ovim se pokreće aplikacija *S7-PLCSIM*.
+5. Konfigurisati simulirani PLC u S7-PLCSIM-u i postavite ga na *RUN*.
 6. Prebacite projekt na simulirani PLC putem opcije Download to device.
-7. U Project tree mapi kliknuti na SCADA fajl, te na dugme Start Runtime on the PC koje se nalazi u alatnoj traci razvojnog okruženja. Ovim se pokreće aplikacija WinCC RT Advanced i simulacija implementiranog SCADA/HMI interfacea.
+7. U *Project tree* mapi kliknuti na SCADA fajl, te na dugme Start Runtime on the PC koje se nalazi u alatnoj traci razvojnog okruženja. Ovim se pokreće aplikacija *WinCC RT Advanced* i simulacija implementiranog SCADA/HMI interfacea.
 
 ## Simulacija
 ### TIA Portal i S7-PLCSIM
