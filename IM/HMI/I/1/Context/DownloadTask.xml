@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo ProjectId="55e73491-a6e6-4942-a40a-56419d6dcd2d" ESProjectName="SeminarskiRad17" ESDeviceName="HMI_RT_1" RtProjectFolderName="SeminarskiRad17.PC station[SIMATIC PC station - WinCC Unified Scada RT]" RtProjectName="SeminarskiRad17.PC station[SIMATIC PC station - WinCC Unified Scada RT]" DeviceType="SIMATIC PC station - WinCC Unified Scada RT" DeviceVersion="16.0.0.0" CreationTime="09/21/2020 22:21:33" FirmwareFileName="" RuntimeFileName="" PRCV="2.0.0.0" RTCV="0.0.0.0" RTReleaseNo="16.0.0.0" ImageReleaseNo="0.0.0.0" />
+  <FullDownload>general\main.rdf</FullDownload>
+  <FullDownload>general\dpIdentification.rdf</FullDownload>
+  <FullDownload>general\config_AlertClass.rdf</FullDownload>
+  <FullDownload>User.pbb</FullDownload>
+  <FullDownload>general\cds.rdf</FullDownload>
+  <FullDownload>general\ChromIdentification.rdf</FullDownload>
+  <FullDownload>general\Style.rdf</FullDownload>
+  <FullDownload>general\textLibrary_89_1033.rdf</FullDownload>
+  <FullDownload>general\config_InitialValue.rdf</FullDownload>
+  <FullDownload>general\config_SecureConnectionAttributes.rdf</FullDownload>
+  <FullDownload>general\config_AlertHandler.rdf</FullDownload>
+  <FullDownload>general\textLibrary_91_1033.rdf</FullDownload>
+  <FullDownload>general\textListLibrary.rdf</FullDownload>
+  <FullDownload>screens\screen_115.rdf</FullDownload>
+  <FullDownload>general\config_PeripheralAddress.rdf</FullDownload>
+  <FullDownload>general\config_DistributionInfo.rdf</FullDownload>
+  <FullDownload>general\config_Smoothing.rdf</FullDownload>
+  <FullDownload>general\config_DpValue.rdf</FullDownload>
+  <FullDownload type="ADMINDATA">UMCData.json</FullDownload>
+  <FullDownload>{9BA2ACF0-39B3-465B-8E10-28301ED605C5}.zip</FullDownload>
+  <FullDownload>{9F7D29E9-06B2-4973-AACF-2888C34E6EF2}.zip</FullDownload>
+  <FullDownload>config\config.level</FullDownload>
+  <FullDownload>system\ProjectCharacteristics.rdf</FullDownload>
+</DownloadTask>
